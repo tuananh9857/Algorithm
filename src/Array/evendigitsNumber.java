@@ -1,6 +1,6 @@
 package Array;
 
-public class problem3 {
+public class evendigitsNumber {
     /*
     Given an array nums of integers, return how many of them contain an even number of digits.
 Input: nums = [12,345,2,6,7896]                                         Input: nums = [555,901,482,1771]
@@ -15,7 +15,7 @@ Therefore only 12 and 7896 contain an even number of digits.
      */
     public static void main(String[] args) {
         int [] nums = {555,901,482,1771};
-        problem3 getSol = new problem3();
+        evendigitsNumber getSol = new evendigitsNumber();
         System.out.println(getSol.findNumbers(nums));
 
     }

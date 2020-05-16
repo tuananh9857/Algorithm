@@ -8,11 +8,11 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
  */
-public class problem1 {
+public class SumArray_GetTarget {
     public static void main(String[] args) {
         int nums [] = {2,7,11,15};
         int target = 9;
-        problem1 getMethod = new problem1();
+        SumArray_GetTarget getMethod = new SumArray_GetTarget();
         for (int i : getMethod.twoSum(nums, target)){
             System.out.println(i + "  ");
         }

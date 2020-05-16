@@ -8,10 +8,10 @@ Output: 3                2                      1
 Explanation: The first two digits or the last three digits are consecutive 1s.
 The maximum number of consecutive 1s is 3.
  */
-public class problem2 {
+public class SumBinary {
     public static void main(String[] args) {
         int [] nums = {0};
-        problem2 getMethod = new problem2();
+        SumBinary getMethod = new SumBinary();
         System.out.println(getMethod.findMaxConsecutiveOnes(nums));
 
     }
